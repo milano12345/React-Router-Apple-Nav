@@ -1,0 +1,84 @@
+.apple-logo {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+}
+
+.magnify-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+}
+
+.shopping-logo {
+  width: 30px;
+  height: 23px;
+  margin-top: 8px;
+}
+
+.nav-bar {
+    cursor: default;
+    margin: 0 -10px;
+    width: auto;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #323232;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    margin: 0 auto;
+    padding: 0 41px;
+    position: relative;
+    background-color: #323232;
+    z-index: 2;
+    
+}
+
+a {
+  color: white;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.mac-bar{
+  cursor: default;
+  margin: 0 -10px;
+  width: auto;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #323232;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  left: 200px;
+}
+
+.mac-menu {
+    width: 7%;
+    height: auto;
+}
+
+.mac-bar-wrapper {
+  width:100%;
+  background-color: #323232;
+}
